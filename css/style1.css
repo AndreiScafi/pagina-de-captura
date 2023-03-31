@@ -79,3 +79,11 @@ footer {
 img {
     width: 150px;
 }
+
+@media screen and (max-width: 600px) {
+    .section1 {
+        float: none;
+        margin: 40px auto;
+        max-width: 300px;
+    }
+}
