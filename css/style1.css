@@ -97,19 +97,31 @@ select {
 
 footer {
     background-color: #202121;
-    color: white;
+    /* color: white; */
     text-align: center;
-    padding: 15px 0 25px;
+    padding: 40px;
 }
 
 .section2 {
     display: inline-block;
-    max-width: 350px;
-    margin: 0 20px;
+    color: white;
+    max-width: 40%;
+    /* margin: 0 20px; */
+    margin-left: 40px;
+    text-align: left;
+}
+
+.section2 p,
+.section2 h3 {
+    margin-bottom: 20px;
+}
+
+.section2 h3 {
+    font-size: 24px;
 }
 
 img {
-    width: 150px;
+    width: 160px;
 }
 
 @media screen and (max-width: 600px) {
